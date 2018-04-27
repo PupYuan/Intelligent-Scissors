@@ -1,0 +1,14 @@
+*.suo
+*.mdb
+*.ldb
+*.sln
+*.config
+*.props
+
+Debug/
+Release/
+obj/
+.vs/
+lib/
+images/
+include/
