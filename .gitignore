@@ -10,5 +10,8 @@ Release/
 obj/
 .vs/
 lib/
-images/
 include/
+bin/
+*.vcxproj
+*.filters
+*.user

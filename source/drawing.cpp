@@ -2,7 +2,7 @@
 
 Mat image;
 Mat gray_image;
-char* imageName;
+char *imageName;
 
 list<list<CvPoint>> contours;//保留了整个轮廓
 list<CvPoint>seg_points;//保留了所有的segmentation point
@@ -89,8 +89,8 @@ void loadImage(int argc, char** argv) {
 		cout << "load default image:lena.jpg" << endl;
 		//printf("useage: %s <imagefile>\n ", argv[0]);
 		const char* default_image = "./lena.jpg";
-		imageName = new char[11];
-		strcpy(imageName, default_image);
+		imageName = new char[20];
+		strcpy_s(imageName,21 ,default_image);
 	}else  imageName = argv[1];
 	
 	image = imread(imageName, CV_LOAD_IMAGE_COLOR);
