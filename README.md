@@ -15,8 +15,8 @@ use opencv3.4.1
 
 
 ## Project Presentatin
+![image](https://github.com/PupYuan/Intelligent-Scissors/blob/master/images/Project%20Presentation.gif)
 
-![image](https://github.com/PupYuan/Intelligent-Scissors/images/Project Presentation.gif)
 
 
 
